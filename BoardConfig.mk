@@ -34,3 +34,5 @@ TARGET_KERNEL_CONFIG    := cyanogen_d2spr_defconfig
 
 TARGET_BOARD_INFO_FILE ?= device/samsung/d2spr/board-info.txt
 
+DEVICE_RESOLUTION := 720x1280
+
