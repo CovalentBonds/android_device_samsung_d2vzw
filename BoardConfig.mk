@@ -24,15 +24,15 @@
 -include device/samsung/d2-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/d2spr/BoardConfigVendor.mk
+-include vendor/samsung/d2vzw/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := d2spr,d2spi,d2tfnspr
+TARGET_OTA_ASSERT_DEVICE := d2vzw
 
 # Kernel
-TARGET_KERNEL_CONFIG    := cyanogen_d2spr_defconfig
+TARGET_KERNEL_CONFIG    := cyanogen_d2vzw_defconfig
 
-TARGET_BOARD_INFO_FILE ?= device/samsung/d2spr/board-info.txt
+TARGET_BOARD_INFO_FILE ?= device/samsung/d2vzw/board-info.txt
 
 DEVICE_RESOLUTION := 720x1280
 
